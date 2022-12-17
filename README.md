@@ -5,6 +5,8 @@ The telemetry is recieved in a telemetry.bin file, most of the relevant files sh
 Using Python 3.x, the program parses all the binary frames in the ‘telemetry.bin’ file attached according to the structure described in ‘TLM_LIST.csv’. 
 The program then extracts time, position and attitude information and export this data to a csv file in order to make the data available to be imported and replayed.  
 
+The program finally returns the "telemetry.csv" file.
+
 Notes: 
 - Time information in the binary file is in TAI seconds from January 1st 2000, 00:00:00 
 - ECI frame of reference is J2000 
