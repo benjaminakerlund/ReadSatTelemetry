@@ -1,4 +1,4 @@
-# Program to parse satellite telemetry data into a more readable form for human - July of 2021
+# Program to parse satellite telemetry data into a more readable form - July of 2021
 The task of the program is to convert real telemetry data from a real satellite into a more readable form for humans.
 The telemetry is recieved in a telemetry.bin file, most of the relevant files should be in the "submission" folder. 
 
