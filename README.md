@@ -11,13 +11,11 @@ Notes:
 - The size of a data chunk is 2068 bytes 
 
 ## ToDo:
-* Review assignment
+* Review the program:
   * The main thing wrong is that I haven't taken into account the Most Significant Bit - Least Significant Bit principle
   * I think the program should work fine if I just reverse the traversal order of each binary frame after reading them
   * Before the program writes each frame into the csv that is
- 
 * It would also be interesting to reflect on whether or not this data comes according to the ECSS standard: https://www.esa.int/TEC/Software_engineering_and_standardisation/TECT5CUXBQE_0.html
-
 * I would also like to do an algorithm analysis for how effectively we are parsing the data
   * This could be done both by after a prototype is done reflecting on used data structrures and so on
   * As well ass doing an experimental analysis of the runtime and plotting the results
