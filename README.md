@@ -19,6 +19,8 @@ Notes:
 
 ## ToDo:
 * Review assignment, and reupload all necessary stuff
-  * The main thing wrong according to what they said in the interview was that I had forgot about the Most Valuable Bit - Least Valuable Bit principle
+  * The main thing wrong according to what they said in the interview was that I had forgot about the Most Significant Bit - Least Significant Bit principle
   * I think my program might be very fine, 
 * What would be interesting to do is also reflect on whether or not this data comes according to the ECSS standard: https://www.esa.int/TEC/Software_engineering_and_standardisation/TECT5CUXBQE_0.html
+
+
