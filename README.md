@@ -6,10 +6,9 @@ Using Python 3.x, the program parses all the binary frames in the ‘telemetry.b
 The program then extracts time, position and attitude information and export this data to a csv file in order to make the data available to be imported and replayed.  
 
 ### Notes: 
-- Time information in the binary file is in TAI seconds from January 1st 2000, 00:00:00 
-- ECI frame of reference is J2000 
-- The size of a data chunk is 2068 bytes 
-
+- This is not a finished product and is still very much in the prototype stage.
+- The program creates a readable csv, however the data is still skewed since the MSB-LSB principle is not yet taken into account for.
+- It has been a while since I worked on this project
 
 ### Librares
 The program uses the os.path, csv and numpy python libraries.
@@ -17,8 +16,10 @@ The program uses the os.path, csv and numpy python libraries.
 ### Return
 The program finally returns the "telemetry.csv" file.
 
+### Execution
+To execute the program we first need to run the main.py program with the *choice* variable being set to 0, and then once more with it being set to 1. This is a ghost of an earlier test deployment that I have still left in for now in the code for debugging purposes. In a finished version I would change this structure to automatically detect if we have read the telemetry and created a csv file.
 
-## ToDo:
+# ToDo:
 * Review the program:
   * The main thing wrong is that I haven't taken into account the Most Significant Bit - Least Significant Bit principle
   * I think the program should work fine if I just reverse the traversal order of each binary frame after reading them
